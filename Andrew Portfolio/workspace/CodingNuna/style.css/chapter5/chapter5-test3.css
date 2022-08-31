@@ -1,0 +1,27 @@
+.main-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+  }
+  
+  .box-background {
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    color: white;
+    position: relative;
+  }
+  
+  .front {
+    position: absolute;
+    left: 100px;
+    top: 100px
+  }
+  
+  

@@ -1,0 +1,18 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+  
+  }
+  
+  .front {
+    background-color: gray;
+  }
+  
+  .box-position {
+    position: relative;
+    left: 100px;
+    top: -100px;
+  }
+  

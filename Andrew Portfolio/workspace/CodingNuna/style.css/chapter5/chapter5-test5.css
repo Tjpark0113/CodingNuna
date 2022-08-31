@@ -1,0 +1,31 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+  }
+  
+  .box-background {
+    width: 800px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  .left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  
+  .right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  
+  
+  
