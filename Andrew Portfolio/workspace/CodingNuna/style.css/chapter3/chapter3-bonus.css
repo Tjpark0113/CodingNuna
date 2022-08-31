@@ -1,0 +1,25 @@
+.new-style {
+    color: red;
+  }
+  
+  #new-style1 {
+    color: red;
+  }
+  
+  /* p{
+    color: yellow;
+  } 모든 p태그에 css가 적용됨*/ 
+  
+  /* p.new-style {
+    color: red;
+  }  p태그에 있는 class가 new-style인 태그만 선택*/
+  
+  /* div .new-style {
+    color: red;
+  } div태그 아래에 있는 모든 자손들 중 스타일이 .new-style을 가진 태그만 적용 */
+  
+  /* div>.new-style {
+    color: red;
+  } >가 붙을 경우 div태그 밑에 직접적 자식 중에서만 new-style을 가진 경우에 적용. 지금의 경우 span태그 밑에 p태그가 new-style을 가지고 있으므로 div를 span으로 바꿔주면 적용가능*/
+  
+  /* div>span 나 span>p 처럼 class를 필수적으로 뒤에 줄 필요없다 */

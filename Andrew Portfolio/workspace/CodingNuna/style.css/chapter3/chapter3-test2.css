@@ -1,0 +1,37 @@
+div {
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+  /*   text-indent: 10%; */
+  /*   text-indent는 첫번째 글자만 들여쓰기 되지만 padding은 전체를 밀어주므로 여기서는 padding을 사용했다 */
+    padding-left: 10%;
+  }
+  
+  h1 {
+    color:  #9b59b6  ;
+  }
+  
+  h1::before {
+    content: " Topic: ";
+  }
+  
+  h1:first-child {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    font-family: Verdana;
+    font-style: italic;
+  }
+  
+  p::first-letter {
+    font-size: 200%;
+    color: #2980b9 ;
+  }
+  
+  .sub-header {
+    color: #2980b9 ;
+  }

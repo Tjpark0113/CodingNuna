@@ -1,0 +1,107 @@
+body {
+    display: contents;
+  }
+  
+  .navbar {
+    float: right;
+  /*  main과 같은 선상에 위치하므로 검사에서 body클릭 후 아래의 display:block;이 있는 block은 태그들을 수직으로 flex는 수평으로 배열함. inline은 한 줄안에 배열 element. stlye에서 display: 입력 후 하나씩 적용시켜보기  */
+  /*   border: 1px solid red; */
+    margin: 20px;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    margin-top: 300px;
+    text-align: center;
+  }
+  
+  .input-area {
+    margin-top: 20px;
+  }
+  
+  .input-box {
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left: 40px;
+    padding-right: 40px
+  }
+  
+  .search-icon {
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+  }
+  
+  .mic-icon {
+    position: relative;
+    right: 40px;
+    color: #9aa0a6;
+  }
+  
+  .button-area {
+    padding-top : 18px;
+  }
+  
+  .button-style {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+  /*   1개는 4방향 2개는 첫번째는 위아래 두번째는 양옆 */
+    margin: 11px 4px;
+  }
+  
+  .button-style:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    width: 100%;
+  /*  이 width: 100%는 자신의 부모에 대한 100%로 footer div의 부모가 body이므로 body에 적용됨  */
+  }
+  
+  .first-line {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  
+  .second-line {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  
+  .second-line-second {
+    float: right;
+  }
+  
+  .second-line a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+    padding-right: 15px;
+  }
+  
+  .second-line a:hover {
+    text-decoration: underline;
+  }

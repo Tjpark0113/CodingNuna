@@ -1,0 +1,27 @@
+.box {
+    width: 100px;
+    height: 100px;  
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .locate {
+    position: relative;
+  /*  relative: 있는 자리를 기준으로 움직임
+      absolute: 부모(화면)의 절대값을 기준으로 움직임
+      static: 웹브라우저의 기본값. 즉 div 순서대로 보여주는 것. static은 left나 top 등을 이해하지 못함.
+      fixed: 광고 배너처럼 스크롤을 내려도 그 위치에 따라 내려오지만 absolute의 경우 따라 내려오지 않음.
+      sticky: fixed처럼 움직임. 단, absolute가 아닌 relative의 위치에서 따라 내려옴.*/
+    left: 30px;
+    top: 30px;
+  }
