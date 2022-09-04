@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1ed760;
+  }
+  /* nav에만 쓰이는 것이 아니라 footer에서도 동일한 hover를 사용하므로 a태그에 hover를 적용함 */
+  
+  nav {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  main {
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+  }
+  
+  footer {
+    height: 530px;
+    background-color: black;
+  }
+  
+  .nav-item {
+    padding: 28px 17px;
+    font-weight: 700;
+  }
