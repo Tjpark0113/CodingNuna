@@ -6,6 +6,7 @@ let page = 1;
 let totalPage = 10;
 let url = new URL(
   "https://api.newscatcherapi.com/v2/latest_headlines?countries=KR&page_size=10"
+ 
 );
 let menus = document.querySelectorAll("#menu-list button");
 menus.forEach((menu) =>
