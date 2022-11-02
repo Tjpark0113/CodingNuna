@@ -1,11 +1,12 @@
 //https://app.newscatcherapi.com/dashboard/
 // this api will be expired in 30 days 0524
-const API_KEY = "FMh1W-nyPJh-ozrlCoXqPkijHOKiuE-uyjK_B7sQ1UA";
+const API_KEY = "1aw3wErHQxKBQg9avE_OeDSmMtlM7H_HOdejZCqAoko";
 let articles = [];
 let page = 1;
 let totalPage = 10;
 let url = new URL(
-  "https://api.newscatcherapi.com/v2/latest_headlines?countries=KR&page_size=10"
+  // "https://api.newscatcherapi.com/v2/latest_headlines?countries=KR&page_size=10"
+  "https://api.newscatcherapi.com/v2/latest_headlines?countries=US&topic=business"
 );
 let menus = document.querySelectorAll("#menu-list button");
 menus.forEach((menu) =>
@@ -50,7 +51,7 @@ const getNews = async () => {
 const getLatestNews = () => {
   page = 1; // 9. 새로운거 search마다 1로 리셋
   url = new URL(
-    `https://api.newscatcherapi.com/v2/search?q=Apple&from='2022/10/07'&countries=CA&page_size=10`
+    `https://api.newscatcherapi.com/v2/search?q=Apple&from='2022/11/01'&countries=CA&page_size=10`
   );
   getNews();
 };
@@ -59,7 +60,7 @@ const getNewsByTopic = (event) => {
   let topic = event.target.textContent.toLowerCase();
   page = 1;
   url = new URL(
-    `https://api.newscatcherapi.com/v2/search?q=Apple&from='2022/10/07'&countries=CA&page_size=10&topic=${topic}`
+    `https://api.newscatcherapi.com/v2/search?q=Apple&from='2022/11/01'&countries=CA&page_size=10&topic=${topic}`
   );
   getNews();
 };
