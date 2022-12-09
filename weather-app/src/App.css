@@ -1,0 +1,49 @@
+body {
+  background: url(https://openweather.co.uk/storage/app/media/we-are-pleased-announce-our-new-statistical-weather-data-api-now-available.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.weather-box {
+  border: 3px solid #fff;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: azure;
+  max-width: 700px;
+  width: 100%;
+  height: 300px;
+  text-align: left;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 60px;
+  max-width: 700px;
+  width: 100%;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.menu-container Button {
+  margin-right: 30px;
+}
+
+.menu-container Button:hover{
+  background-color: blue;
+}
+
+/* .menu-container Button:active{
+  background-color: greenyellow;
+} */
